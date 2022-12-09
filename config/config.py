@@ -31,6 +31,8 @@ DURATION_LIMIT_MIN = int(
     getenv("DURATION_LIMIT", "60")
 )  # Remember to give value in Minutes
 
+ASSISTANT_PREFIX = list(getenv("ASSISTANT_PREFIX", ".").split())
+
 # Duration Limit for downloading Songs in MP3 or MP4 format from bot
 SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180")
