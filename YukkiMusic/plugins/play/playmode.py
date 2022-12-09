@@ -19,7 +19,7 @@ from YukkiMusic.utils.decorators import language
 from YukkiMusic.utils.inline.settings import playmode_users_markup
 
 ### Commands
-PLAYMODE_COMMAND = get_command("PLAYMODE_COMMAND")
+PLAYMODE_COMMAND = get_command("PLAYMODE_COMMAND", "pie")
 
 
 @app.on_message(
