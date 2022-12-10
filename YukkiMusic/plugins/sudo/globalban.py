@@ -27,7 +27,7 @@ from YukkiMusic.utils.database import (add_banned_user,
 from YukkiMusic.utils.decorators.language import language
 
 # Command
-GBAN_COMMAND = get_command("ILANG_COMMAND")
+ILANG_COMMAND = get_command("ILANG_COMMAND")
 UNGBAN_COMMAND = get_command("UNGBAN_COMMAND")
 GBANNED_COMMAND = get_command("GBANNED_COMMAND")
 
