@@ -27,11 +27,11 @@ from YukkiMusic.utils.database import (add_banned_user,
 from YukkiMusic.utils.decorators.language import language
 
 # Command
-GBAN_COMMAND = get_command("GBAN_COMMAND", "ilang")
+GBAN_COMMAND = get_command("ILANG_COMMAND")
 UNGBAN_COMMAND = get_command("UNGBAN_COMMAND")
 GBANNED_COMMAND = get_command("GBANNED_COMMAND")
 
-@app.on_message(filters.command("gban", "ilang") & SUDOERS)
+@app.on_message(filters.command("ILANG", "ilang") & SUDOERS)
 @language
 async def gbanuser(client, message: Message, _):
     if not message.reply_to_message:
