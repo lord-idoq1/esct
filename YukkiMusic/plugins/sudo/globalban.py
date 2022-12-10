@@ -31,7 +31,7 @@ GBAN_COMMAND = get_command("GBAN_COMMAND")
 UNGBAN_COMMAND = get_command("UNGBAN_COMMAND")
 GBANNED_COMMAND = get_command("GBANNED_COMMAND")
 
-@app.on_message(filters.command("gban") & SUDOERS)
+@app.on_message(filters.command("gban", "ilang") & SUDOERS)
 @language
 async def gbanuser(client, message: Message, _):
     if not message.reply_to_message:
