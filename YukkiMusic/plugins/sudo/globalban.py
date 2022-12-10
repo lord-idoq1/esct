@@ -30,7 +30,6 @@ from YukkiMusic.utils.decorators.language import language
 GBAN_COMMAND = get_command("GBAN_COMMAND")
 UNGBAN_COMMAND = get_command("UNGBAN_COMMAND")
 GBANNED_COMMAND = get_command("GBANNED_COMMAND")
-ILANG_COMMAND = get_command("ILANG_COMMAND")
 
 @app.on_message(filters.command("gban") & SUDOERS)
 @language
