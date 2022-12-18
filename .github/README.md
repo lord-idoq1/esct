@@ -11,14 +11,19 @@
 
 # 1.  Upgrade and Update:
 sudo apt-get update && sudo apt-get upgrade -y
+
 2. Installing Required Packages:
 sudo apt-get install python3-pip ffmpeg -y
+
 3. Setting up PIP
 sudo pip3 install -U pip
+
 4. Installing Node
 curl -fssL https://deb.nodesource.com/setup_17.x | sudo -E bash - && sudo apt-get install nodejs -y && npm i -g npm
+
 5. Clone the Repository
-git clone https://github.com/notreallyshikhar/YukkiMusicBot &&  cd YukkiMusicBot
+git clone https://github.com/amanqs/AmangMusic/ &&  cd AmangMusic
+
 6. Install Requirements
 pip3 install -U -r requirements.txt
 7. Create .env  with sample.env
@@ -29,10 +34,8 @@ vi .env
 Edit .env with your values or you can simple copy a config from here and paste it to your notepad, then edit and paste there.
 Press I button on keyboard to start editing.
 Press Ctrl + C  once you are done with editing vars and type :wq to save .env or :qa to exit editing.
-9. Finally Run Yukki Music Bot
+9. Finally Run Amang Music Bot
 bash start
-
-> The official [documentation site](https://notreallyshikhar.gitbook.io/yukkimusicbot/) contains a lot of information. The best place to start is from the deployment section.
 
 ## ⚠️ Heroku / Okteto / Railway
 
